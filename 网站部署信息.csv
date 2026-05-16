@@ -1,0 +1,31 @@
+信息类型,当前虚拟内容,需要替换的真实信息,所在文件
+公司名称,贵州鑫辰启科技,你的公司全称,Navbar.tsx, Footer.tsx
+联系电话,13800138000,公司对外联系电话,Navbar.tsx, Contact.tsx, Footer.tsx
+电子邮箱,contact@xinchenqi.com,公司对外邮箱,Contact.tsx, Footer.tsx
+公司地址,贵州省六盘水市水城区,公司实际地址,Contact.tsx, Footer.tsx
+资质荣誉,2026省级专精特新企业等,公司真实资质证书,Footer.tsx, About.tsx
+产品信息,还原铁粉、硫金沙等,公司实际产品,Products.tsx
+新闻资讯,虚拟新闻内容,公司真实新闻动态,News.tsx
+客户案例,虚拟客户案例,真实合作客户案例,Cases.tsx
+技术优势,虚拟技术描述,公司真实技术实力,Technology.tsx
+
+服务器部署步骤
+步骤,操作内容,说明
+1,选择云服务器,推荐阿里云ECS、腾讯云CVM、华为云ECS
+2,选择配置,入门级：1核2G内存，40GB SSD，带宽1-2M
+3,选择操作系统,Ubuntu 22.04 LTS 或 CentOS 7
+4,配置安全组,开放端口：80（HTTP）、443（HTTPS）、22（SSH）
+5,安装Node.js,版本18.x或20.x
+6,安装Nginx,作为反向代理服务器
+7,构建项目,运行 npm run build
+8,配置Nginx,将域名指向项目dist目录
+9,配置HTTPS,使用Let's Encrypt免费SSL证书
+
+域名购买步骤
+步骤,操作内容,推荐平台
+1,选择域名注册商,阿里云、腾讯云、GoDaddy
+2,查询域名可用性,输入想要的域名，检查是否已被注册
+3,选择域名后缀,.com（国际）、.cn（国内）、.com.cn
+4,完成购买,填写注册信息，支付费用
+5,域名备案（国内服务器）,在服务商处提交备案材料，约10-20个工作日
+6,配置DNS解析,添加A记录指向服务器IP
